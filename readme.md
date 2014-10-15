@@ -12,4 +12,5 @@ Installation
    php composer.phar require juliangut/zdt-additions
    ```
    or download it directly from github and place it in your application's `module/` directory.
+
 2. Add the `JgutZdtAdditions` module to the module section of your `config/application.config.php`

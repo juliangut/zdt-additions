@@ -1,4 +1,10 @@
 <?php
+/**
+ * ZdtAdditions Module (https://github.com/juliangut/zdt-additions)
+ *
+ * @link https://github.com/juliangut/zdt-additions for the canonical source repository
+ * @license http://framework.zend.com/license/new-bsd New BSD License
+ */
 
 namespace JgutZdtAdditions\Collector;
 
@@ -18,7 +24,7 @@ class EnvironmentCollector implements CollectorInterface
     protected $environmentData;
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function getName()
     {
@@ -34,7 +40,7 @@ class EnvironmentCollector implements CollectorInterface
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function collect(MvcEvent $mvcEvent)
     {

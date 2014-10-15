@@ -1,33 +1,29 @@
 {
     "name": "juliangut/zdt-additions",
+    "type": "zf2-module",
     "description": "Zend Developer Tools additional collectors.",
-    "type": "zf-module",
-    "license": "MIT",
     "keywords": [
         "zf2",
         "zdt",
         "request"
     ],
     "homepage": "https://github.com/juliangut/zdt-additions",
+    "license": "New BSD",
     "authors": [
         {
             "name": "Julián Gutiérrez",
             "email": "juliangut@gmail.com",
-            "homepage": "http://juliangut.com/"
+            "homepage": "http://juliangut.com",
+            "role": "lead"
         }
     ],
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zend-mvc": "2.*",
-        "zendframework/zend-servicemanager": "2.*",
         "zendframework/zend-developer-tools": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "JgutZdtAdditions\\": "src/"
-        },
-        "classmap": [
-            "./Module.php"
-        ]
+        }
     }
 }
