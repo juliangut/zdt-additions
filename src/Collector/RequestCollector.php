@@ -3,7 +3,7 @@
  * ZdtAdditions Module (https://github.com/juliangut/zdt-additions)
  *
  * @link https://github.com/juliangut/zdt-additions for the canonical source repository
- * @license http://framework.zend.com/license/new-bsd New BSD License
+ * @license https://raw.githubusercontent.com/juliangut/zdt-additions/master/LICENSE
  */
 
 namespace JgutZdtAdditions\Collector;
