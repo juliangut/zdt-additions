@@ -44,10 +44,13 @@ class RequestCollector implements CollectorInterface
      */
     public function collect(MvcEvent $mvcEvent)
     {
+        $request = $mvcEvent->getApplication()->getRequest();
+
         $this->requestData = array(
-            '_GET'    => $_GET,
-            '_POST'   => $_POST,
-            '_COOKIE' => $_COOKIE,
+            '_GET'    => (array) $request->getQuery(),
+            '_POST'   => (array) $request->getPost(),
+            '_COOKIE' => (array) $request->getCookie(),
+            '_FILE'   => (array) $request->getFiles(),
         );
     }
 
@@ -92,12 +95,22 @@ class RequestCollector implements CollectorInterface
     }
 
     /**
-     * Gather requests contents.
+     * Files contents.
      *
      * @return array
      */
+    public function getFile()
+    {
+        return $this->get('_FILE');
+    }
+
+    /**
+     * Gather requests contents.
+     *
+     * @return array|null
+     */
     protected function get($data)
     {
-        return $this->requestData[$data];
+        return isset($this->requestData[$data]) ? $this->requestData[$data] : null;
     }
 }

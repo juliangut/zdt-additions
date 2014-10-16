@@ -21,6 +21,9 @@
         "php": ">=5.3.3",
         "zendframework/zend-developer-tools": "dev-master"
     },
+    "require-dev": {
+        "phpmd/phpmd": "*"
+    },
     "autoload": {
         "psr-4": {
             "JgutZdtAdditions\\": "src/"

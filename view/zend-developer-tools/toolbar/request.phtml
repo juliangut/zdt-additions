@@ -7,35 +7,30 @@
         </span>
     </div>
     <div class="zdt-toolbar-detail">
-        <span class="zdt-toolbar-info">
-            <span class="zdt-detail-label">Get</span>
-            <span class="zdt-detail-value">
-                <pre><?php foreach($this->collector->getGet() as $key => $val) {
-                    echo $key . ': ' . $val . "\n";
-                }
-                ?>
-                </pre>
+        <?php
+        $collectors = array(
+            'Get'    => $this->collector->getGet(),
+            'Post'   => $this->collector->getPost(),
+            'Cookie' => $this->collector->getCookie(),
+            'File'   => $this->collector->getFile(),
+        );
+
+        foreach ($collectors as $collector => $collection) {
+            if ($collection) { ?>
+            <span class="zdt-toolbar-info">
+                <span class="zdt-detail-label"><?php echo $collector ?></span>
+                    <span class="zdt-detail-value">
+                    <pre><?php
+                    foreach ($collection as $key => $val) {
+                        echo $key . ': ' . $val . "\n";
+                    }
+                    ?>
+                    </pre>
+                </span>
             </span>
-        </span>
-        <span class="zdt-toolbar-info">
-            <span class="zdt-detail-label">Post</span>
-            <span class="zdt-detail-value">
-                <pre><?php foreach($this->collector->getPost() as $key => $val) {
-                    echo $key . ': ' . $val . "\n";
-                }
-                ?>
-                </pre>
-            </span>
-        </span>
-        <span class="zdt-toolbar-info">
-            <span class="zdt-detail-label">Cookie</span>
-            <span class="zdt-detail-value">
-                <pre><?php foreach($this->collector->getCookie() as $key => $val) {
-                    echo $key . ': ' . $val . "\n";
-                }
-                ?>
-                </pre>
-            </span>
-        </span>
+            <?php
+            }
+        }
+        ?>
     </div>
 </div>
