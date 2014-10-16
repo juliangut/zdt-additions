@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/juliangut/zdt-additions.svg?branch=master)](https://travis-ci.org/juliangut/zdt-additions)
+[![Build Status](https://travis-ci.org/juliangut/zdt-additions.svg?branch=develop)](https://travis-ci.org/juliangut/zdt-additions)
 
 ZDT Additions
 =============
