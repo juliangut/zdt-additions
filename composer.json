@@ -8,7 +8,7 @@
         "request"
     ],
     "homepage": "https://github.com/juliangut/zdt-additions",
-    "license": "BSD 2-Clause",
+    "license": "BSD-2-Clause",
     "authors": [
         {
             "name": "Julián Gutiérrez",
@@ -17,6 +17,7 @@
             "role": "lead"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
         "zendframework/zend-developer-tools": "dev-master"
