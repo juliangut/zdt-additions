@@ -22,7 +22,9 @@
         "zendframework/zend-developer-tools": "dev-master"
     },
     "require-dev": {
-        "phpmd/phpmd": "*"
+        "phpmd/phpmd": "*",
+        "sebastian/phpdcd": "*",
+        "squizlabs/php_codesniffer": "*"
     },
     "autoload": {
         "psr-4": {
