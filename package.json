@@ -19,7 +19,7 @@
     "grunt-phplint": "~0.0.5",
     "grunt-phpcs": "~0.2.3",
     "grunt-phpmd": "~0.1.1",
-    "grunt-phpdcd": "~0.1.0"
+    "grunt-phpcpd": "~0.1.3"
   },
   "repository": {
     "type": "git",

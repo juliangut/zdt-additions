@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/juliangut/zdt-additions.svg?branch=develop)](https://travis-ci.org/juliangut/zdt-additions)
+[![Latest Stable Version](https://poser.pugx.org/juliangut/zdt-additionse/v/stable.svg)](https://packagist.org/packages/juliangut/zdt-additions)
+[![Total Downloads](https://poser.pugx.org/juliangut/zdt-additions/downloads.svg)](https://packagist.org/packages/juliangut/zdt-additions)
 
 ZDT Additions
 =============

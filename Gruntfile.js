@@ -29,15 +29,18 @@ module.exports = function(grunt) {
                 dir: './src'
             }
         },
-        phpdcd: {
+        phpcpd: {
             options: {
-                bin: './vendor/bin/phpdcd'
+                bin: './vendor/bin/phpcpd',
+                quiet: false,
+                ignoreExitCode: true
             },
             application: {
-                dir: ['src']
+                dir: './src'
             }
-        }
+        },
     });
 
-    grunt.registerTask('default', ['phplint', 'phpcs', 'phpmd', 'phpdcd']);
+    grunt.registerTask('default', ['phplint', 'phpcs', 'phpmd']);
+    grunt.registerTask('all', ['default', 'phpcpd']);
 };
