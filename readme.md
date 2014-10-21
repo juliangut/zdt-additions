@@ -27,4 +27,4 @@ License
 
 ###Release under BSD-2-Clause License.
 
-See file [LICENSE](https://github.com/juliangut/zf-maintenance/blob/develop/LICENSE) included with the source code for a copy of the license terms
+See file [LICENSE](https://github.com/juliangut/zdt-additions/blob/develop/LICENSE) included with the source code for a copy of the license terms
