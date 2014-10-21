@@ -8,7 +8,7 @@ module.exports = function(grunt) {
             options: {
                 swapPath: '/tmp'
             },
-            application: ['src/*.php']
+            application: ['./src/**/*.php',]
         },
         phpcs: {
             options: {
