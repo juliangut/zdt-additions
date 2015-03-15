@@ -1,14 +1,16 @@
 [![Build Status](https://travis-ci.org/juliangut/zdt-additions.svg?branch=master)](https://travis-ci.org/juliangut/zdt-additions)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/juliangut/zdt-additions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/juliangut/zdt-additions/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/juliangut/zdt-additions/v/stable.svg)](https://packagist.org/packages/juliangut/zdt-additions)
 [![Total Downloads](https://poser.pugx.org/juliangut/zdt-additions/downloads.svg)](https://packagist.org/packages/juliangut/zdt-additions)
 
-# ZDT Additions
+# Zend Developer Tools Additions
 
-Module providing additional collectors for Zend Developer Tools.
+Module providing additional collectors for
+[ZendDeveloperTools](https://github.com/zendframework/ZendDeveloperTools).
 
 ## Installation
 
-1. Install the module via composer by running:
+1. Best way to install is using [Composer](https://getcomposer.org/):
 
 ```
 php composer.phar require juliangut/zdt-additions
@@ -16,7 +18,7 @@ php composer.phar require juliangut/zdt-additions
 
 or download it directly from github and place it in your application's `module/` directory.
 
-2. Add the `JgutZdtAdditions` module to the module section of your `config/application.config.php`
+2. Add the `Jgut\Zf\ZdtAdditions` module to the module section of your `config/application.config.php`
 
 ## License
 

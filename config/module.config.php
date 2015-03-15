@@ -9,8 +9,8 @@
 return array(
     'service_manager' => array(
         'invokables' => array(
-            'JgutZdtAdditions\RequestCollector'     => 'JgutZdtAdditions\Collector\RequestCollector',
-            'JgutZdtAdditions\EnvironmentCollector' => 'JgutZdtAdditions\Collector\EnvironmentCollector',
+            'Jgut\Zf\ZdtAdditions\RequestCollector'     => 'Jgut\Zf\ZdtAdditions\Collector\RequestCollector',
+            'Jgut\Zf\ZdtAdditions\EnvironmentCollector' => 'Jgut\Zf\ZdtAdditions\Collector\EnvironmentCollector',
         ),
     ),
 
@@ -26,8 +26,8 @@ return array(
     'zenddevelopertools' => array(
         'profiler' => array(
             'collectors' => array(
-                'zdtadditions-request'     => 'JgutZdtAdditions\RequestCollector',
-                'zdtadditions-environment' => 'JgutZdtAdditions\EnvironmentCollector',
+                'zdtadditions-request'     => 'Jgut\Zf\ZdtAdditions\RequestCollector',
+                'zdtadditions-environment' => 'Jgut\Zf\ZdtAdditions\EnvironmentCollector',
             ),
         ),
         'toolbar' => array(
