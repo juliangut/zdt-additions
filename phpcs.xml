@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ruleset name="JgutZdtAdditions PHP_CodeSniffer Rule Set">
-    <description>JgutZdtAdditions PHP_CodeSniffer Rule Set</description>
+<ruleset name="Zend Developer Tools additional collectors PHP_CodeSniffer Rule Set">
+    <description>Zend Developer Tools additional collectors PHP_CodeSniffer Rule Set</description>
 
     <!-- Import PSR2 entire rule set -->
     <rule ref="PSR2"/>
