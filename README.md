@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/juliangut/zdt-additions.svg?branch=master)](https://travis-ci.org/juliangut/zdt-additions)
+[![Code Climate](https://codeclimate.com/github/juliangut/zdt-additions/badges/gpa.svg)](https://codeclimate.com/github/juliangut/zdt-additions)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/juliangut/zdt-additions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/juliangut/zdt-additions/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/juliangut/zdt-additions/v/stable.svg)](https://packagist.org/packages/juliangut/zdt-additions)
 [![Total Downloads](https://poser.pugx.org/juliangut/zdt-additions/downloads.svg)](https://packagist.org/packages/juliangut/zdt-additions)
