@@ -20,6 +20,12 @@ or download it directly from github and place it in your application's `module/`
 
 2. Add the `Jgut\Zf\ZdtAdditions` module to the module section of your `config/application.config.php`
 
+## Contributing
+
+Found a bug or have a feature request? [Please open a new issue](https://github.com/juliangut/zdt-additions/issues). Have a look at existing issues before
+
+See file [CONTRIBUTING.md](https://github.com/juliangut/zdt-additions/blob/master/CONTRIBUTING.md)
+
 ## License
 
 ### Release under BSD-3-Clause License.
